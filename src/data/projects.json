@@ -1,0 +1,133 @@
+[
+    {
+      "id": "ocb1224",
+      "title": "Créez la page d’accueil d’une agence de voyage avec HTML & CSS",
+      "subtitle": "Booki",
+      "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+      "pictures": [
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+      ],
+      "description": "L'entreprise Booki souhaitait développer un site internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Je suis chargée d'intégrer l'interface du site.",
+      "technology": [
+        "HTML",
+        "CSS"
+      ],
+      "link": "https://github.com/Jenny-Taranto/Projet2",
+      "conclusion": "J'ai réalisé une interface conforme à la maquette en HTML et CSS. J'ai utilisé Flexbox pour la mise en page et rendu celle-ci responsive afin qu'elle s'adapte à toutes les tailles d'écran."
+    },
+    {
+      "id": "ocsb0225",
+      "title": "Créez une page web dynamique avec JavaScript",
+      "subtitle":"Sophie Bluel",
+      "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+      "pictures": [
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
+        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+      ],
+      "description": "L'entreprise Archiwebos m'a confié un projet de conception d'un site portfolio pour une architecte d'intérieur, Sophie Bluel. Elle doit pouvoir se connecter sur son site et ajouter, modifier ou supprimer des travaux de son portfolio. Mon rôle est donc de développer la page de connexion de l'administrateur du site et la modale permettant d'éditer les travaux. Cela implique la gestion des événements utilisateurs et la manipulation des éléments du DOM, en communiquant avec l'API déjà existante.",
+      "technology": [
+        "JavaScript"
+      ],
+      "link": "https://github.com/Jenny-Taranto/Projet3",
+      "conclusion": "JavaScript m'a permis de créer une page web dynamique grâce aux requêtes faites à l'API."
+    },
+    {
+        "id": "ocnc0325",
+        "title": "Débuggez et optimisez un site de photographe",
+        "subtitle": "Nina Carducci",
+        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "pictures": [
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+        ],
+        "description": "Pour ce projet j'ai proposé mes services d'optimisation SEO à la photographe Nina Carducci, dont la page web était longue à charger. Il s'agissait donc d'effectuer une optimisation des images afin de pouvoir naviguer avec plus de fluidité. La structure du code de la page n'étant pas idéale pour l'accessibilité, j'ai décidé d'optimiser celle-ci afin de lui garantir une meilleure visibilité pour les futurs clients. Nina Carducci souhaitait également mettre en place un référencement local avec les informations de localisation et de contact de son entreprise, ainsi que des metas pour les réseaux sociaux afin de pouvoir partager son contenu. Enfin, elle a souhaité que je corrige une erreur de fonctionnalité de navigation dans la modale de la galerie ainsi qu'un souci d'affichage concernant la sélection d'une catégorie. J'ai finalement rédigé un rapport détaillant toutes mes interventions sur sa page web, accompagné d'une liste des cas d'usage de son site, expliquant comment celui-ci devrait fonctionner.",
+        "technology": [
+            "Lighthouse pour l'audit",
+            "TinyPNG pour l'optimisation des images",
+            "Colour Contrast Analyzer pour vérifier les contrastes entre les couleurs",
+            "Schema.org pour le référencement local",
+            "Metas OpenGraph pour les réseaux sociaux",
+            "Google Rich Snippet pour tester le bon fonctionnement du référencement local"
+        ],
+        "link": "https://github.com/Jenny-Taranto/Projet4",
+        "conclusion": "L'optimisation d'une page web réside dans une structure de code solide, des images adaptées et des fonctionnalités sans erreur d'exécution. Un référencement local et la possibilité de partage sur les réseaux sociaux sont également essentiels pour la visibilité du site sur les moteurs de recherche."
+      },
+      {
+        "id": "ock0325",
+        "title": "Créez une application web de location immobilière avec React",
+        "subtitle": "Kasa",
+        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "pictures": [
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+        ],
+        "description": "Ce projet consistait en une refonte totale du code back-end avec une plus grande fluidité et des pages dynamiques, tout en intégrant les éléments front-end de la maquette.",
+        "technology": [
+            "Bibliothèque React pour la dynamique des composants",
+            "React-Router pour la gestion des différentes routes de l'application",
+            "Vite.js qui simplifie la configuration initiale d'une application React",
+            "Node.js pour exécuter du code JavaScript en dehors du navigateur"
+        ],
+        "link": "https://github.com/Jenny-Taranto/Projet5",
+        "conclusion": "React et React-Router forment un duo très efficace pour la gestion du routage et la création de composants dynamiques réutilisables. Les composants permettent un gain de temps considérable lorsque l'on veut réutiliser un même élement plusieurs fois"
+      },
+      {
+        "id": "ocmvg0425",
+        "title": "Développez le back-end d'un site de notation de livres",
+        "subtitle": "Mon vieux grimoire",
+        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "pictures": [
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+        ],
+        "description": "La mission consistait à la création d'un serveur connecté à une base de données afin d'enregistrer des informations sur un livre que l'on souhaiterait ajouter depuis notre espace utilisateur. Ce livre apparaîtrait ensuite sur le site Mon vieux grimoire et il serait ainsi possible de lui attribuer une note personnelle, qui serait ensuite prise en compte pour le calcul de sa note moyenne. Il convenait donc d'implémenter le système d'identhification qui conduirait à l'ajout d'un livre et des informations.",
+        "technology": [
+            "Framework Express pour construire une API REST",
+            "MongoDB comme base de données",
+            "Mongoose pour modéliser des données basées sur des schémas",
+            "Mongoose-unique-validator qui ajoute une validation pour les champs uniques",
+            "Bcrypt pour la hachage de mot de passe",
+            "Jsonwebtoken pour la création de tokens valides",
+            "Multer pour le téléchargement de fichiers",
+            "Sharp pour l'optimisation des images"
+        ],
+        "link": "https://github.com/Jenny-Taranto/Projet6",
+        "conclusion": "La création d'une API REST sécurisée est essentielle pour la création d'applications web modernes et performantes."
+      },
+      {
+        "id": "ocmmbq0525",
+        "title": "Planifiez le développement du site de votre client",
+        "subtitle": "Menu Maker",
+        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "pictures": [
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
+          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+        ],
+        "description": "L'entreprise Qwenta souhaitait développer un Menu Maker pour permettre aux restaurateurs de créer des menus, les personnaliser, les diffuser sur les réseaux ou de commander leur impression. Mon travail consistait à la gestion de ce projet, de l'organisation de celui-ci à l'élaboration de la veille technologique, en passant par la rédaction des spécifications techniques du site.",
+        "technology": [
+            "Feedly comme outil de veille technologique",
+            "Notion comme outil de réalisation d'un tableau kanban pour l'organisation du projet",
+            "Google Slides pour réaliser la présentation de cette gestion de projet"
+        ],
+        "conclusion": "J'ai établi l'organisation de ce projet d'après les méthodes AGILE et SCRUM, dont je me suis inspirée pour répartir les tâches dans le kanban. J'ai effectué des recherches concernant la veille technologique nécessaire à l'élaboration des spécifications techniques de ce projet, que j'ai finalement rédigées avec la solution technique dans un rapport complet."
+      }
+]
