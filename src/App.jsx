@@ -1,17 +1,23 @@
-import React from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import './styles/App.css'
+import Home from './pages/Home/Home.jsx';
+import Header from './components/Header/Header.jsx';
+import About from './pages/About/About.jsx';
+import Project from './pages/Project/Project.jsx';
+import Error from './pages/Error/Error';
+import Contact from './pages/Contact/Contact.jsx';
+import './styles/App.scss'
 
 function App() {
   return (
     <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/lodging/:id" element={<Project />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<Error />} />
-        </Routes>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/project/:id" element={<Project />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
     </BrowserRouter>
   );
 }

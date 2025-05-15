@@ -3,15 +3,12 @@
       "id": "ocb1224",
       "title": "Créez la page d’accueil d’une agence de voyage avec HTML & CSS",
       "subtitle": "Booki",
-      "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+      "cover": "src/assets/Booki_01.png",
       "pictures": [
-        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+        "src/assets/Booki_01.png",
+        "src/assets/Booki_02.png"
       ],
-      "description": "L'entreprise Booki souhaitait développer un site internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Je suis chargée d'intégrer l'interface du site.",
+      "description": "L'entreprise Booki souhaitait développer un site internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. J'étais chargée d'intégrer l'interface du site. L'utilisation de Flexbox était confuse au départ, mais au fur et à mesure que le projet avançait, j'étais de plus en plus à l'aise avec cet outil. J'ai également rencontré des soucis d'alignement, qui ont été réglé par l'utilisation de la propriété CSS box-sizing pour prendre en compte les valeurs des paddings dans les calculs de l'espace occupé par les blocs.",
       "technology": [
         "HTML",
         "CSS"
@@ -23,15 +20,13 @@
       "id": "ocsb0225",
       "title": "Créez une page web dynamique avec JavaScript",
       "subtitle":"Sophie Bluel",
-      "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+      "cover": "src/assets/Sophie_Bluel_01.png",
       "pictures": [
-        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-        "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+        "src/assets/Sophie_Bluel_01.png",
+        "src/assets/Sophie_Bluel_02.png",
+        "src/assets/Sophie_Bluel_03.png"
       ],
-      "description": "L'entreprise Archiwebos m'a confié un projet de conception d'un site portfolio pour une architecte d'intérieur, Sophie Bluel. Elle doit pouvoir se connecter sur son site et ajouter, modifier ou supprimer des travaux de son portfolio. Mon rôle est donc de développer la page de connexion de l'administrateur du site et la modale permettant d'éditer les travaux. Cela implique la gestion des événements utilisateurs et la manipulation des éléments du DOM, en communiquant avec l'API déjà existante.",
+      "description": "L'entreprise Archiwebos m'a confié un projet de conception d'un site portfolio pour une architecte d'intérieur, Sophie Bluel. Elle devait pouvoir se connecter sur son site et ajouter, modifier ou supprimer des travaux de son portfolio. Mon rôle était donc de développer la page de connexion de l'administrateur du site et la modale permettant d'éditer les travaux. Cela impliquait la gestion des événements utilisateurs et la manipulation des éléments du DOM, en communiquant avec l'API déjà existante. Au clic en dehors de la modale, je ne parvenais pas à faire en sorte qu'elle se ferme. L'utilisation de la méthode event.stopPropagation() a permis de corriger cela. Je ne comprenais pas non plus pourquoi le formulaire d'ajout de travail ne voulait pas se valider, il s'est avéré que j'écoutais l'événement sur le bouton au lieu de la balise <form>.",
       "technology": [
         "JavaScript"
       ],
@@ -42,15 +37,13 @@
         "id": "ocnc0325",
         "title": "Débuggez et optimisez un site de photographe",
         "subtitle": "Nina Carducci",
-        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "cover": "src/assets/Nina_Carducci_01.png",
         "pictures": [
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+          "src/assets/Nina_Carducci_01.png",
+          "src/assets/Nina_Carducci_02.png",
+          "src/assets/Nina_Carducci_03.png"
         ],
-        "description": "Pour ce projet j'ai proposé mes services d'optimisation SEO à la photographe Nina Carducci, dont la page web était longue à charger. Il s'agissait donc d'effectuer une optimisation des images afin de pouvoir naviguer avec plus de fluidité. La structure du code de la page n'étant pas idéale pour l'accessibilité, j'ai décidé d'optimiser celle-ci afin de lui garantir une meilleure visibilité pour les futurs clients. Nina Carducci souhaitait également mettre en place un référencement local avec les informations de localisation et de contact de son entreprise, ainsi que des metas pour les réseaux sociaux afin de pouvoir partager son contenu. Enfin, elle a souhaité que je corrige une erreur de fonctionnalité de navigation dans la modale de la galerie ainsi qu'un souci d'affichage concernant la sélection d'une catégorie. J'ai finalement rédigé un rapport détaillant toutes mes interventions sur sa page web, accompagné d'une liste des cas d'usage de son site, expliquant comment celui-ci devrait fonctionner.",
+        "description": "Pour ce projet j'ai proposé mes services d'optimisation SEO à la photographe Nina Carducci, dont la page web était longue à charger. Il s'agissait donc d'effectuer une optimisation des images afin de pouvoir naviguer avec plus de fluidité. La structure du code de la page n'étant pas idéale pour l'accessibilité, j'ai décidé d'optimiser celle-ci afin de lui garantir une meilleure visibilité pour les futurs clients. Nina Carducci souhaitait également mettre en place un référencement local avec les informations de localisation et de contact de son entreprise, ainsi que des metas pour les réseaux sociaux afin de pouvoir partager son contenu. Enfin, elle a souhaité que je corrige une erreur de fonctionnalité de navigation dans la modale de la galerie ainsi qu'un souci d'affichage concernant la sélection d'une catégorie. J'ai finalement rédigé un rapport détaillant toutes mes interventions sur sa page web, accompagné d'une liste des cas d'usage de son site, expliquant comment celui-ci devrait fonctionner. Sur ce projet, j'ai pasé le plus de temps sur l'optimisation des images car elles nécessitaient d'être compressées sans perdre trop de qualité.",
         "technology": [
             "Lighthouse pour l'audit",
             "TinyPNG pour l'optimisation des images",
@@ -66,20 +59,20 @@
         "id": "ock0325",
         "title": "Créez une application web de location immobilière avec React",
         "subtitle": "Kasa",
-        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "cover": "src/assets/Kasa_01.png",
         "pictures": [
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+          "src/assets/Kasa_01.png",
+          "src/assets/Kasa_02.png",
+          "src/assets/Kasa_03.png",
+          "src/assets/Kasa_04.png"
         ],
-        "description": "Ce projet consistait en une refonte totale du code back-end avec une plus grande fluidité et des pages dynamiques, tout en intégrant les éléments front-end de la maquette.",
+        "description": "Ce projet consistait en une refonte totale du code back-end avec une plus grande fluidité et des pages dynamiques, tout en intégrant les éléments front-end de la maquette. La logique des props concernant les composants React m'était légèrement compliquée à comprendre, cela s'est amélioré avec la pratique tout le long du projet.",
         "technology": [
             "Bibliothèque React pour la dynamique des composants",
             "React-Router pour la gestion des différentes routes de l'application",
             "Vite.js qui simplifie la configuration initiale d'une application React",
-            "Node.js pour exécuter du code JavaScript en dehors du navigateur"
+            "Node.js pour exécuter du code JavaScript en dehors du navigateur",
+            "Sass pour une meilleure structure du CSS"
         ],
         "link": "https://github.com/Jenny-Taranto/Projet5",
         "conclusion": "React et React-Router forment un duo très efficace pour la gestion du routage et la création de composants dynamiques réutilisables. Les composants permettent un gain de temps considérable lorsque l'on veut réutiliser un même élement plusieurs fois"
@@ -88,15 +81,13 @@
         "id": "ocmvg0425",
         "title": "Développez le back-end d'un site de notation de livres",
         "subtitle": "Mon vieux grimoire",
-        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "cover": "src/assets/Mon_vieux_grimoire_01.png",
         "pictures": [
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+          "src/assets/Mon_vieux_grimoire_01.png",
+          "src/assets/Mon_vieux_grimoire_02.png",
+          "src/assets/Mon_vieux_grimoire_03.png"
         ],
-        "description": "La mission consistait à la création d'un serveur connecté à une base de données afin d'enregistrer des informations sur un livre que l'on souhaiterait ajouter depuis notre espace utilisateur. Ce livre apparaîtrait ensuite sur le site Mon vieux grimoire et il serait ainsi possible de lui attribuer une note personnelle, qui serait ensuite prise en compte pour le calcul de sa note moyenne. Il convenait donc d'implémenter le système d'identhification qui conduirait à l'ajout d'un livre et des informations.",
+        "description": "La mission consistait à la création d'un serveur connecté à une base de données afin d'enregistrer des informations sur un livre que l'on souhaiterait ajouter depuis notre espace utilisateur. Ce livre apparaîtrait ensuite sur le site Mon vieux grimoire et il serait ainsi possible de lui attribuer une note personnelle, qui serait ensuite prise en compte pour le calcul de sa note moyenne. Il convenait donc d'implémenter le système d'identhification qui conduirait à l'ajout d'un livre et des informations. Durant mon travail, j'ai rencontré un souci avec Sharp et Multer, que j'ai réglé en modifiant une ligne de code dans le fichier multer-config.js : j'utilisais le diskStorage, qui stockait le fichier sans traitement immédiat. J'ai dû changer en memoryStorage pour pouvoir traiter l'image avant de l'enregistrer.",
         "technology": [
             "Framework Express pour construire une API REST",
             "MongoDB comme base de données",
@@ -114,13 +105,13 @@
         "id": "ocmmbq0525",
         "title": "Planifiez le développement du site de votre client",
         "subtitle": "Menu Maker",
-        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "cover": "src/assets/Menu_Maker_01.png",
         "pictures": [
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-          "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+          "src/assets/Menu_Maker_01.png",
+          "src/assets/Menu_Maker_02.png",
+          "src/assets/Menu_Maker_03.png",
+          "src/assets/Menu_Maker_04.png",
+          "src/assets/Menu_Maker_05.png"
         ],
         "description": "L'entreprise Qwenta souhaitait développer un Menu Maker pour permettre aux restaurateurs de créer des menus, les personnaliser, les diffuser sur les réseaux ou de commander leur impression. Mon travail consistait à la gestion de ce projet, de l'organisation de celui-ci à l'élaboration de la veille technologique, en passant par la rédaction des spécifications techniques du site.",
         "technology": [
@@ -128,6 +119,7 @@
             "Notion comme outil de réalisation d'un tableau kanban pour l'organisation du projet",
             "Google Slides pour réaliser la présentation de cette gestion de projet"
         ],
-        "conclusion": "J'ai établi l'organisation de ce projet d'après les méthodes AGILE et SCRUM, dont je me suis inspirée pour répartir les tâches dans le kanban. J'ai effectué des recherches concernant la veille technologique nécessaire à l'élaboration des spécifications techniques de ce projet, que j'ai finalement rédigées avec la solution technique dans un rapport complet."
+        "link": "https://github.com/Jenny-Taranto/Projet7",
+        "conclusion": "J'ai établi l'organisation de ce projet d'après les méthodes AGILE et SCRUM, dont je me suis inspirée pour répartir les tâches dans le kanban. J'ai effectué des recherches concernant la veille technologique nécessaire à l'élaboration des spécifications techniques de ce projet, que j'ai finalement rédigées avec la solution technique dans un rapport complet. La tâche qui s'est avérée confuse était l'estimation des tâches en Story Points car il fallait prendre en compte les deux côtés de la phase de développement : le front-end et le back-end."
       }
 ]
