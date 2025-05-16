@@ -1,6 +1,7 @@
 @use "./Header.scss";
-
-
+@use "./Footer.scss";
+@use "./Home.scss";
+@use "./Card.scss";
 
 
 * {
@@ -17,5 +18,9 @@ body {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+  }
+
+  a {
+    text-decoration: none;
   }
 }

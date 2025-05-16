@@ -1,0 +1,28 @@
+.card {
+    background-color: #F5F5F5;
+    width: 310px;
+    height: 335px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #C4C4C4;
+    position: relative;
+
+    .cover {
+        width: 290px;
+        height: 210px;
+        object-fit: cover;
+        border-radius : 5px;
+    }
+
+    p {
+        font-weight: 500;
+    }
+
+    .logooc {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+    }
+}

@@ -1,0 +1,44 @@
+footer {
+    width: 100%;
+    height: 240px;
+    background-color: #252525;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+    nav {
+        font-family: "Raleway";
+        font-size: 17px;
+        font-weight: 500;
+        display: flex;
+        gap: 60px;
+
+        a {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+
+    div {
+        display: flex;
+        gap: 60px;
+
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+
+    p {
+        color: #FFFFFF;
+        font-family: "Raleway";
+        font-weight: 300;
+        font-style: italic;
+        font-size: 16px;
+        margin: 0
+    }
+}

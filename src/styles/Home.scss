@@ -1,0 +1,64 @@
+main {
+    padding: 20px;
+
+    .first-section {
+        display: flex;
+
+        h1 {
+            font-family: "Monda";
+            font-weight: bold;
+            font-size: 80px;
+            color: #252525;
+            margin: 0;
+        }
+
+        h2 {
+            font-family: "Raleway";
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            font-family: "Raleway";
+            font-size: 40px;
+        }
+
+        input {
+            background-color: #8860D0;
+            border-style: none;
+            width: 150px;
+            height: 50px;
+            color: #FFFFFF;
+            border-radius: 15px;
+            font-family: "Inter";
+            font-size: 18px;
+        }
+
+        img {
+            width: 700px;
+            height: 470px;
+        }
+    }
+
+    .second-section {
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 100px;
+        }
+
+        h2 {
+            font-family: "Raleway";
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        p {
+            font-family: "Raleway";
+            font-size: 17px;
+            color: #8860D0;
+        }
+    }
+}
