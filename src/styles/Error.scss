@@ -1,0 +1,33 @@
+.main-error {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #8860D0;
+    gap: 50px;
+
+    span {
+        font-family: "Monda";
+        font-size: 96px;
+        font-weight: 700;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+    p {
+        font-family: "Raleway";
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    a {
+        text-decoration: underline;
+        font-family: "Raleway";
+        font-size: 20px;
+        font-weight: 400;
+        color: #8860D0;
+    }
+}

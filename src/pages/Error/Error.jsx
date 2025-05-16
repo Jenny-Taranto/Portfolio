@@ -1,19 +1,15 @@
+import { NavLink } from 'react-router-dom'
 
-function Home() {
+function Error() {
   return (
-    <main className="main-home"> 
-      <div>
-      </div>
-      <section>
-        <h2></h2>
-        
-      </section>
-      <section>
-        <h2></h2>
-        <p></p>
-      </section>
+    <main className="main-error">
+      <span>404</span>
+      <img src="/error.png" alt="Ordinateur cassé"/>
+      <p>On dirait que cette page n'existe pas.</p>
+      <p>Désolée !</p>
+      <NavLink to='/'>Retourner à l'accueil</NavLink>
     </main>
   );
 };
 
-export default Home
+export default Error

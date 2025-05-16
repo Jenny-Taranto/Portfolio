@@ -4,7 +4,9 @@
 @use "./Card.scss";
 @use "./Carrousel.scss";
 @use "./Project.scss";
-
+@use "./About.scss";
+@use "./Contact";
+@use "./Error.scss";
 
 * {
   box-sizing: border-box

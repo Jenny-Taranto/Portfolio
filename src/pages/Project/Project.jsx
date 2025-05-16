@@ -15,7 +15,7 @@ function Project() {
       <section className="section-one">
         <div className="title-link">
           <h3 className="project-title">{Project.subtitle}</h3>
-          <p>Code sur <a href={Project.link}>Github</a></p>
+          <p>Code sur <a href={Project.link} target="_blank">Github</a></p>
         </div>
         <Carrousel pictures={Project.pictures} />
         <p className="description-title">Description</p>
