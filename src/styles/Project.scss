@@ -1,0 +1,109 @@
+.main-project {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+
+    .section-one {
+
+        .title-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            p {
+                font-family: "Raleway";
+
+                a {
+                    color: #252525;
+                    text-decoration-line: underline;
+                }
+            }
+
+            .project-title {
+                font-family: "Raleway";
+                font-size: 24px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+        }
+
+        .description-title,
+        .technology-title {
+            font-family: "Raleway";
+            font-size: 18px;
+            font-weight: 700;
+            width: 100%;
+            height: 45px;
+            background-color: #8860D0;
+            color: #FFFFFF;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+            margin-top: 50px;
+            margin-bottom: 0;
+        }
+
+        .technology-list {
+            list-style-type: circle;
+            padding: 15px 0 15px 30px;
+            margin: 0;
+            background-color: #F5F5F5;
+        }
+
+        .technology-list li {
+            font-family: "Inter";
+            font-size: 17px;
+            margin-bottom: 5px;
+            margin-top: 0;
+        }
+
+        .text {
+            font-family: "Inter";
+            font-size: 17px;
+            background-color: #F5F5F5;
+            padding: 15px;
+            margin-top: 0;
+        }
+    }
+
+    .section-two {
+        width: 100%;
+
+        .second-title {
+            font-family: "Raleway";
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+
+        }
+
+        p {
+            font-family: "Inter";
+            font-size: 17px;
+        }
+    }
+
+    .formation {
+        display: flex;
+        gap: 10px;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 40px;
+
+        p {
+            font-family: "Inter";
+            font-size: 12px;
+        }
+
+        img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
