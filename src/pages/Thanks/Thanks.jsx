@@ -2,7 +2,7 @@ import Card from "../../components/Card/Card"
 import projects from "../../data/projects.json"
 import { Link } from "react-router-dom"
 
-function Home() {
+function Thanks() {
   return (
     <main className="main-home">
       <p>Votre message a bien été envoyé, merci de votre visite !</p>
@@ -10,4 +10,4 @@ function Home() {
   );
 };
 
-export default Home
+export default Thanks
