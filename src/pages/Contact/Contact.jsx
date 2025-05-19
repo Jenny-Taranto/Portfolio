@@ -28,6 +28,10 @@ function Contact() {
           data-netlify="true"
           netlify-honeypot="bot-field"
         >
+          <input type="hidden" name="form-name" value="contact" />
+          <p hidden>
+            <label>Ne pas remplir ce champ : <input name="bot-field" /></label>
+          </p>
 
           <label htmlFor="name">Votre nom</label>
           <input type="text" name="name" id="name" required />
