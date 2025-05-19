@@ -34,17 +34,27 @@ function Contact() {
         {submitted ? (
           <p className="success-message">Merci ! Votre message a bien été envoyé.</p>
         ) : (
-          <form name="contact" method="POST" netlify className="form-contact" onSubmit={handleSubmit}>
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+            action="/"
+            onSubmit={handleSubmit}
+          >
             <input type="hidden" name="form-name" value="contact" />
+            <p hidden>
+              <label>Ne pas remplir ce champ : <input name="bot-field" /></label>
+            </p>
 
             <label htmlFor="name">Votre nom</label>
-            <input type="text" name="name" id="name" className="input-name-mail" required />
+            <input type="text" name="name" id="name" required />
 
             <label htmlFor="email">Votre e-mail</label>
-            <input type="email" name="email" id="email" className="input-name-mail" required />
+            <input type="email" name="email" id="email" required />
 
             <label htmlFor="message">Votre message</label>
-            <textarea name="message" id="message" rows="5" className="input-message" required></textarea>
+            <textarea name="message" id="message" rows="5" required></textarea>
 
             <button type="submit">Envoyer</button>
           </form>
