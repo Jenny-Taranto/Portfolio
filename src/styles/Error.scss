@@ -31,3 +31,17 @@
         color: #8860D0;
     }
 }
+
+@media (max-width: 375px) {
+    .main-error {
+        margin: 50px;
+
+        span {
+            font-size: 64px;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+}

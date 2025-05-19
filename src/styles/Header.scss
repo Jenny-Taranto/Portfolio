@@ -26,3 +26,16 @@ header {
         text-decoration-line: overline;
     }
 }
+
+
+@media (max-width: 375px) {
+    header {
+        nav {
+            font-size: 17px;
+
+            div {
+                gap: 50px
+            }
+        }
+    }
+}

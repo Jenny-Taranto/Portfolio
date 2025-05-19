@@ -46,7 +46,7 @@
         .visuals {
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            gap: 60px;
             align-items: center;
             margin: 0 50px 0 50px;
 
@@ -61,5 +61,58 @@
                 font-size: 32px;
             }
         }
+    }
+}
+
+@media (max-width: 768px) {
+    .main-about {
+        section {
+            div {
+                .text {
+                    margin: 0;
+                }
+            }
+
+            .visuals {
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .main-about {
+        nav {
+            ul {
+                flex-direction: column;
+                padding: 0;
+
+                li {
+                    margin: 10px 0 10px 0
+                }
+            }
+        }
+
+        section {
+            div {
+
+                .visuals {
+                    flex-direction: column;
+
+                    .quote {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .main-about {
+        section {}
     }
 }
