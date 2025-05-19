@@ -10,7 +10,8 @@ function Home() {
           <h1>Jenny Taranto</h1>
           <h2>Développeuse web</h2>
           <p>Je donne forme aux rêves numériques</p>
-          <input type="button" value="MON CV" onClick="window.location=lien relatif" />
+<input
+  type="button" value="MON CV" onClick={() => window.open("/CV_2025-05-19_Jenny_TARANTO.pdf", "_blank")}/>
         </div>
         <img src="/4102879_971 1.svg" />
       </section>
