@@ -6,7 +6,6 @@ import About from './pages/About/About.jsx';
 import Project from './pages/Project/Project.jsx';
 import Error from './pages/Error/Error.jsx';
 import Contact from './pages/Contact/Contact.jsx';
-import Thanks from './pages/Thanks/Thanks.jsx';
 import './styles/App.scss'
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
         <Route path="/project/:id" element={<Project />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/thanks" element={<Thanks />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
