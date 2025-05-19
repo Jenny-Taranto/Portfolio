@@ -34,7 +34,7 @@ function Contact() {
         {submitted ? (
           <p className="success-message">Merci ! Votre message a bien été envoyé.</p>
         ) : (
-          <form name="contact" method="POST" data-netlify="true" className="form-contact" onSubmit={handleSubmit}>
+          <form name="contact" method="POST" netlify className="form-contact" onSubmit={handleSubmit}>
             <input type="hidden" name="form-name" value="contact" />
 
             <label htmlFor="name">Votre nom</label>
