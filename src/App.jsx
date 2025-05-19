@@ -4,9 +4,9 @@ import Header from './components/Header/Header.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import About from './pages/About/About.jsx';
 import Project from './pages/Project/Project.jsx';
-import Error from './pages/Error/Error';
+import Error from './pages/Error/Error.jsx';
 import Contact from './pages/Contact/Contact.jsx';
-import Thanks from './pages/Thanks/Thanks';
+import Thanks from './pages/Thanks/Thanks.jsx';
 import './styles/App.scss'
 
 function App() {
