@@ -1,23 +1,4 @@
-import { useState } from "react";
-
 function Contact() {
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const form = e.target;
-    const data = new FormData(form);
-
-    fetch("/", {
-      method: "POST",
-      body: data,
-    })
-      .then(() => setSubmitted(true))
-      .catch(() => alert("Une erreur est survenue, veuillez réessayer."));
-
-    form.reset();
-  };
-
   return (
     <main className="main-contact">
       <h2>Contact</h2>
@@ -41,37 +22,31 @@ function Contact() {
           </a>
         </div>
 
-        {submitted ? (
-          <p className="success-message">Merci ! Votre message a bien été envoyé.</p>
-        ) : (
-          <form
-            name="contact"
-            method="POST"
-            data-netlify="true"
-            netlify-honeypot="bot-field"
-            action="/"
-            onSubmit={handleSubmit}
-          >
-            {/* Anti-spam */}
-            <input type="hidden" name="form-name" value="contact" />
-            <p hidden>
-              <label>
-                Ne pas remplir ce champ : <input name="bot-field" />
-              </label>
-            </p>
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          action="/"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <p hidden>
+            <label>
+              Ne pas remplir ce champ : <input name="bot-field" />
+            </label>
+          </p>
 
-            <label htmlFor="name">Votre nom</label>
-            <input type="text" name="name" id="name" required />
+          <label htmlFor="name">Votre nom</label>
+          <input type="text" name="name" id="name" required />
 
-            <label htmlFor="email">Votre e-mail</label>
-            <input type="email" name="email" id="email" required />
+          <label htmlFor="email">Votre e-mail</label>
+          <input type="email" name="email" id="email" required />
 
-            <label htmlFor="message">Votre message</label>
-            <textarea name="message" id="message" rows="5" required></textarea>
+          <label htmlFor="message">Votre message</label>
+          <textarea name="message" id="message" rows="5" required></textarea>
 
-            <button type="submit">Envoyer</button>
-          </form>
-        )}
+          <button type="submit">Envoyer</button>
+        </form>
 
         <p>J'ai hâte qu'on collabore !</p>
       </div>
