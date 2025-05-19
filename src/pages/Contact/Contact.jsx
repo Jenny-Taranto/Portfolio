@@ -27,7 +27,7 @@ function Contact() {
           method="POST"
           data-netlify="true"
           netlify-honeypot="bot-field"
-          action="/thanks"
+          action=""
         >
           <input type="hidden" name="form-name" value="contact" />
           <p hidden>
