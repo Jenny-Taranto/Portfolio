@@ -1,0 +1,110 @@
+.main-home {
+    padding: 20px;
+
+    .first-section {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+
+        div {
+
+            h1 {
+                font-family: "Monda";
+                font-weight: bold;
+                font-size: 48px;
+                color: #252525;
+                margin: 0;
+            }
+
+            h2 {
+                font-family: "Raleway";
+                font-weight: bold;
+                font-size: 26px;
+            }
+
+            p {
+                font-family: "Raleway";
+                font-size: 26px;
+            }
+
+            input {
+                background-color: #8860D0;
+                border-style: none;
+                width: 150px;
+                height: 50px;
+                color: #FFFFFF;
+                border-radius: 15px;
+                font-family: "Inter";
+                font-size: 18px;
+                margin-bottom: 40px;
+                cursor:pointer;
+            }
+        }
+
+        img {
+            width: 40vw;
+            max-width: 700px;
+            height: auto;
+        }
+    }
+
+    .second-section {
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 90px;
+            margin-bottom: 100px;
+            width: 100%;
+        }
+
+        h2 {
+            font-family: "Raleway";
+            font-size: 22px;
+            font-weight: bold;
+            margin: 30px 0 30px 0;
+        }
+
+        p {
+            font-family: "Raleway";
+            font-size: 17px;
+            color: #8860D0;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .main-home {
+        .second-section {
+            .cards {
+                justify-content: center;
+                gap: 60px
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .main-home {
+        .first-section {
+            img {
+                display: none
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .main-home {
+        .first-section {
+            div {
+                input {
+                    width: 100%
+                }
+            }
+        }
+    }
+}
