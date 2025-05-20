@@ -11,7 +11,7 @@ function Contact() {
         <p>Une question ? Un projet ? Lancez-vous.</p>
 
         <div className="socials">
-          <a href="mailto:contact@jennytaranto.com">
+          <a href="mailto:jennytaranto.pro@gmail.com">
             <img src="/enveloppe.png" alt="Enveloppe" />
           </a>
           <a href="https://github.com/Jenny-Taranto" target="_blank">
