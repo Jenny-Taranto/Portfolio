@@ -16,7 +16,12 @@
         object-fit: cover;
         width: 100%;
         height: 100%;
-        transition: transform 0.4s ease-in-out;
+        transition: transform 0.2s ease-in-out;
+    }
+
+    button img {
+        height: 40px;
+        width: 27px;
     }
 
     .image-counter {

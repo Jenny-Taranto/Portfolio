@@ -10,20 +10,20 @@ function Home() {
           <h1>Jenny Taranto</h1>
           <h2>Développeuse web</h2>
           <p>Je donne forme aux rêves numériques</p>
-<input
-  type="button" value="MON CV" onClick={() => window.open("/CV_2025-05-19_Jenny_TARANTO.pdf", "_blank")}/>
+          <input
+            type="button" value="MON CV" onClick={() => window.open("/CV_2025-05-19_Jenny_TARANTO.pdf", "_blank")} />
         </div>
         <img src="/4102879_971 1.svg" />
       </section>
       <section className="second-section">
-        <hr/>
-        <h2>REALISATIONS</h2>
+        <hr />
+        <h2>R&Eacute;ALISATIONS</h2>
         <div className="cards">
-        {projects.map(project => (
-          <Link key={project.id} to={`/project/${project.id}`} >
-            <Card key={project.id} cover={project.cover} title={project.title} />
-          </Link>
-        ))}
+          {projects.map(project => (
+            <Link key={project.id} to={`/project/${project.id}`} >
+              <Card key={project.id} cover={project.cover} title={project.title} />
+            </Link>
+          ))}
         </div>
         <h2>PROJETS PERSONNELS</h2>
         <p>Concevoir une application pour ma bibliothèque personnelle</p>

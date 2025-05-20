@@ -1,5 +1,6 @@
 .main-contact {
     padding: 20px 20px 0 20px;
+    width: 100%;
 
     h2 {
         font-family: "Monda";
@@ -84,5 +85,11 @@
                 cursor:pointer;
             }
         }
+    }
+}
+
+@media (max-width: 375px) {
+    .main-contact {
+        max-width: 359px;
     }
 }

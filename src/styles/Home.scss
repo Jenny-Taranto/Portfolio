@@ -21,6 +21,7 @@
                 font-family: "Raleway";
                 font-weight: bold;
                 font-size: 26px;
+
             }
 
             p {
@@ -37,8 +38,8 @@
                 border-radius: 15px;
                 font-family: "Inter";
                 font-size: 18px;
-                margin-bottom: 40px;
-                cursor:pointer;
+                margin-bottom: 50px;
+                cursor: pointer;
             }
         }
 
@@ -50,6 +51,11 @@
     }
 
     .second-section {
+
+        hr {
+            margin: 0;
+            display: flex;
+        }
 
         .cards {
             display: flex;
@@ -64,7 +70,7 @@
             font-family: "Raleway";
             font-size: 22px;
             font-weight: bold;
-            margin: 30px 0 30px 0;
+            margin: 50px 0 50px 0;
         }
 
         p {
@@ -79,9 +85,14 @@
 @media (max-width: 768px) {
     .main-home {
         .second-section {
+
+            h2 {
+                margin: 40px 0 40px 0;
+            }
+
             .cards {
                 justify-content: center;
-                gap: 60px
+                gap: 50px;
             }
         }
     }
