@@ -43,14 +43,14 @@
           "/Nina_Carducci_02.png",
           "/Nina_Carducci_03.png"
         ],
-        "description": "Pour ce projet j'ai proposé mes services d'optimisation SEO à la photographe Nina Carducci, dont la page web était longue à charger. Il s'agissait donc d'effectuer une optimisation des images afin de pouvoir naviguer avec plus de fluidité. La structure du code de la page n'étant pas idéale pour l'accessibilité, j'ai décidé d'optimiser celle-ci afin de lui garantir une meilleure visibilité pour les futurs clients. Nina Carducci souhaitait également mettre en place un référencement local avec les informations de localisation et de contact de son entreprise, ainsi que des metas pour les réseaux sociaux afin de pouvoir partager son contenu. Enfin, elle a souhaité que je corrige une erreur de fonctionnalité de navigation dans la modale de la galerie ainsi qu'un souci d'affichage concernant la sélection d'une catégorie. J'ai finalement rédigé un rapport détaillant toutes mes interventions sur sa page web, accompagné d'une liste des cas d'usage de son site, expliquant comment celui-ci devrait fonctionner. Sur ce projet, j'ai passé le plus de temps sur l'optimisation des images car elles nécessitaient d'être compressées sans perdre trop de qualité.",
+        "description": "Pour ce projet j'ai proposé mes services d'optimisation SEO à la photographe Nina Carducci, dont la page web était longue à charger. Il s'agissait donc d'effectuer une optimisation des images afin de pouvoir naviguer avec plus de fluidité. La structure du code de la page n'étant pas idéale pour l'accessibilité, j'ai décidé d'optimiser celle-ci afin de lui garantir une meilleure visibilité pour les futurs clients. Nina Carducci souhaitait également mettre en place un référencement local avec les informations de localisation et de contact de son entreprise, ainsi que des metas pour les réseaux sociaux afin de pouvoir partager son contenu. Enfin, elle a souhaité que je corrige une erreur de fonctionnalité de navigation dans la modale de la galerie ainsi qu'un souci d'affichage concernant la sélection d'une catégorie. J'ai finalement rédigé un rapport détaillant toutes mes interventions sur sa page web, accompagné d'une liste des cas d'usage de son site, expliquant comment celui-ci devrait fonctionner. Sur ce projet, j'ai passé la plupart du temps sur l'optimisation des images car elles nécessitaient d'être compressées sans perdre trop de qualité.",
         "technology": [
-            "Lighthouse pour l'audit",
-            "TinyPNG pour l'optimisation des images",
-            "Colour Contrast Analyzer pour vérifier les contrastes entre les couleurs",
-            "Schema.org pour le référencement local",
-            "Metas OpenGraph pour les réseaux sociaux",
-            "Google Rich Snippet pour tester le bon fonctionnement du référencement local"
+            "Audit : Lighthouse",
+            "Optimisation des images : TinyPNG",
+            "Check des contrastes des couleurs : Colour Contrast Analyzer",
+            "Référencement local : Schema.org",
+            "Partage sur les réseaux : Metas OpenGraph",
+            "Test du référencement local : Google Rich Snippets"
         ],
         "link": "https://github.com/Jenny-Taranto/Projet4",
         "conclusion": "L'optimisation d'une page web réside dans une structure de code solide, des images adaptées et des fonctionnalités sans erreur d'exécution. Un référencement local et la possibilité de partage sur les réseaux sociaux sont également essentiels pour la visibilité du site sur les moteurs de recherche."
@@ -68,14 +68,14 @@
         ],
         "description": "Ce projet consistait en une refonte totale du code back-end avec une plus grande fluidité et des pages dynamiques, tout en intégrant les éléments front-end de la maquette. La logique des props concernant les composants React m'était légèrement compliquée à comprendre, cela s'est amélioré avec la pratique tout le long du projet.",
         "technology": [
-            "Bibliothèque React pour la dynamique des composants",
-            "React-Router pour la gestion des différentes routes de l'application",
-            "Vite.js qui simplifie la configuration initiale d'une application React",
-            "Node.js pour exécuter du code JavaScript en dehors du navigateur",
-            "Sass pour une meilleure structure du CSS"
+            "Dynamique des composants : bibliothèque React",
+            "Routage de l'application : React-router",
+            "Build et configuration du serveur : Vite.js",
+            "Exécution de code JavaScript en dehors du navigateur : Node.js",
+            "Structure du CSS : Sass"
         ],
         "link": "https://github.com/Jenny-Taranto/Projet5",
-        "conclusion": "React et React-Router forment un duo très efficace pour la gestion du routage et la création de composants dynamiques réutilisables. Les composants permettent un gain de temps considérable lorsque l'on veut réutiliser un même élement plusieurs fois"
+        "conclusion": "React et React-Router forment un duo très efficace pour la gestion du routage et la création de composants dynamiques réutilisables. Les composants permettent un gain de temps considérable lorsque l'on veut réutiliser un même élement."
       },
       {
         "id": "ocmvg0425",
@@ -87,19 +87,19 @@
           "/Mon_vieux_grimoire_02.png",
           "/Mon_vieux_grimoire_03.png"
         ],
-        "description": "La mission consistait à la création d'un serveur connecté à une base de données afin d'enregistrer des informations sur un livre que l'on souhaiterait ajouter depuis notre espace utilisateur. Ce livre apparaîtrait ensuite sur le site Mon vieux grimoire et il serait ainsi possible de lui attribuer une note personnelle, qui serait ensuite prise en compte pour le calcul de sa note moyenne. Il convenait donc d'implémenter le système d'identhification qui conduirait à l'ajout d'un livre et des informations. Durant mon travail, j'ai rencontré un souci avec Sharp et Multer, que j'ai réglé en modifiant une ligne de code dans le fichier multer-config.js : j'utilisais le diskStorage, qui stockait le fichier sans traitement immédiat. J'ai dû changer en memoryStorage pour pouvoir traiter l'image avant de l'enregistrer.",
+        "description": "La mission consistait en la création d'un serveur connecté à une base de données afin d'enregistrer des informations sur un livre que l'on souhaiterait ajouter depuis notre espace utilisateur. Ce livre apparaîtrait ensuite sur le site Mon vieux grimoire et il serait ainsi possible de lui attribuer une note personnelle, qui serait ensuite prise en compte pour le calcul de sa note moyenne. Il convenait donc d'implémenter le système d'identhification qui conduirait à l'ajout d'un livre et des informations. Durant mon travail, j'ai rencontré un souci avec Sharp et Multer, que j'ai réglé en modifiant une ligne de code dans le fichier multer-config.js : j'utilisais le diskStorage, qui stockait le fichier sans traitement immédiat. J'ai dû changer en memoryStorage pour pouvoir traiter l'image avant de l'enregistrer.",
         "technology": [
-            "Framework Express pour construire une API REST",
-            "MongoDB comme base de données",
-            "Mongoose pour modéliser des données basées sur des schémas",
-            "Mongoose-unique-validator qui ajoute une validation pour les champs uniques",
-            "Bcrypt pour la hachage de mot de passe",
-            "Jsonwebtoken pour la création de tokens valides",
-            "Multer pour le téléchargement de fichiers",
-            "Sharp pour l'optimisation des images"
+            "API REST : framework Express",
+            "Base de données : MongoDB",
+            "Modélisation des données basées sur des schémas : Mongoose",
+            "Ajout d'une validation pour les champs uniques : mongoose-unique-validator",
+            "Hachage de mot de passe : Bcrypt",
+            "Création de tokens valides : jsonwebtoken (JWT)",
+            "Téléchargement de fichiers : Multer",
+            "Optimisation des images : Sharp"
         ],
         "link": "https://github.com/Jenny-Taranto/Projet6",
-        "conclusion": "La création d'une API REST sécurisée est essentielle pour la création d'applications web modernes et performantes."
+        "conclusion": "La création d'une API REST sécurisée est essentielle pour des applications web modernes et performantes."
       },
       {
         "id": "ocmmbq0525",
@@ -115,9 +115,9 @@
         ],
         "description": "L'entreprise Qwenta souhaitait développer un Menu Maker pour permettre aux restaurateurs de créer des menus, les personnaliser, les diffuser sur les réseaux ou de commander leur impression. Mon travail consistait à la gestion de ce projet, de l'organisation de celui-ci à l'élaboration de la veille technologique, en passant par la rédaction des spécifications techniques du site.",
         "technology": [
-            "Feedly comme outil de veille technologique",
-            "Notion comme outil de réalisation d'un tableau kanban pour l'organisation du projet",
-            "Google Slides pour réaliser la présentation de cette gestion de projet"
+            "Outil de veille technologique : Feedly",
+            "Kanban pour l'organisation du projet : Notion",
+            "Réalisation de la présentation de cette gestion de projet : Google Slides"
         ],
         "link": "https://github.com/Jenny-Taranto/Projet7",
         "conclusion": "J'ai établi l'organisation de ce projet d'après les méthodes AGILE et SCRUM, dont je me suis inspirée pour répartir les tâches dans le kanban. J'ai effectué des recherches concernant la veille technologique nécessaire à l'élaboration des spécifications techniques de ce projet, que j'ai finalement rédigées avec la solution technique dans un rapport complet. La tâche qui s'est avérée confuse était l'estimation des tâches en Story Points car il fallait prendre en compte les deux côtés de la phase de développement : le front-end et le back-end."
