@@ -1,4 +1,5 @@
 import { Link, Element } from "react-scroll"
+import ScrollButton from "../../components/ScrollButton/ScrollButton.jsx";
 
 function About() {
   return (
@@ -36,6 +37,7 @@ function About() {
             <p className="quote">"" - Thomas Egain, mentor</p>
           </div>
         </Element>
+        <ScrollButton />
       </section>
     </main>
   );

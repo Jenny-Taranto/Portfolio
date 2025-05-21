@@ -1,6 +1,7 @@
 import Card from "../../components/Card/Card"
 import projects from "../../data/projects.json"
 import { Link } from "react-router-dom"
+import ScrollButton from "../../components/ScrollButton/ScrollButton.jsx";
 
 function Home() {
   return (
@@ -27,6 +28,7 @@ function Home() {
         </div>
         <h2>PROJETS PERSONNELS</h2>
         <p>Concevoir une application pour ma bibliothèque personnelle</p>
+        <ScrollButton />
       </section>
     </main>
   );

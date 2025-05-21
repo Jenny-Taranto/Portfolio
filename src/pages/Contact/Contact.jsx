@@ -1,3 +1,5 @@
+import ScrollButton from "../../components/ScrollButton/ScrollButton.jsx";
+
 function Contact() {
   return (
     <main className="main-contact">
@@ -47,6 +49,7 @@ function Contact() {
 
         <p>J'ai hâte qu'on collabore !</p>
       </div>
+      <ScrollButton />
     </main>
   );
 }

@@ -1,6 +1,7 @@
 import { useParams, Navigate } from "react-router-dom";
 import Carrousel from "../../components/Carrousel/Carrousel";
 import Projects from "../../data/projects.json";
+import ScrollButton from "../../components/ScrollButton/ScrollButton.jsx";
 
 function Project() {
   const { id } = useParams();
@@ -35,6 +36,7 @@ function Project() {
         <p>Projet réalisé dans le cadre d'une formation Openclassrooms</p>
         <img src="/Logo_OpenClassrooms.png" alt="Logo Openclassrooms" />
       </div>
+      <ScrollButton />
     </main>
   );
 };
