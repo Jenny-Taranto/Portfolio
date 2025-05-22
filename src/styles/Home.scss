@@ -55,7 +55,6 @@
     }
 
     .second-section {
-        max-width: 1440px;
         display: flex;
         flex-direction: column;
 
@@ -68,7 +67,9 @@
         .cards {
             display: flex;
             flex-wrap: wrap;
-            gap: 45px;
+            align-items: center;
+            justify-content: center;
+            gap: 90px;
             margin-bottom: 100px;
             width: 100%;
         }
@@ -127,6 +128,8 @@
             }
 
             .cards {
+                justify-content: center;
+                align-items: center;
                 gap: 50px;
             }
         }
