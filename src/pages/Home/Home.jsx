@@ -12,7 +12,7 @@ function Home() {
           <h2>Développeuse web</h2>
           <p>Je donne forme aux rêves numériques</p>
           <input
-            type="button" value="MON CV" onClick={() => window.open("/CV_2025-05-19_Jenny_TARANTO.pdf", "_blank")} />
+            type="button" value="MON CV" onClick={() => window.open("/CV_2025-05-22_Jenny_TARANTO", "_blank")} />
         </div>
         <img src="/4102879_971 1.svg" />
       </section>

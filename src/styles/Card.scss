@@ -68,3 +68,13 @@
     pointer-events: none;
   }
 }
+
+@media (max-width: 768px) {
+    .card {
+        width: 310px;
+
+        .cover {
+            width: 100%;
+        }
+    }
+}
